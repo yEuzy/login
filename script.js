@@ -33,7 +33,7 @@ function falar() {
     }
 
     if (logou == true){
-        location.href = ('index.html')
+        location.href = ('main.html')
     }
     else{
         alert('erro')
