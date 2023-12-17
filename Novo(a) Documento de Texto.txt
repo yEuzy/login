@@ -1,0 +1,98 @@
+
+C:\Users\Pichau\Desktop\login>git pull .
+From .
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\Pichau\Desktop\login>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yEuzy/login.git'
+
+C:\Users\Pichau\Desktop\login>git push -u origin main
+To https://github.com/yEuzy/login.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yEuzy/login.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Pichau\Desktop\login>git push login main
+fatal: 'login' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Pichau\Desktop\login>git push login.git main
+fatal: 'login.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Pichau\Desktop\login>git push https://github.com/yEuzy/login/tree/main main
+fatal: repository 'https://github.com/yEuzy/login/tree/main/' not found
+
+C:\Users\Pichau\Desktop\login>git clone https://github.com/yEuzy/login/tree/main
+Cloning into 'main'...
+fatal: repository 'https://github.com/yEuzy/login/tree/main/' not found
+
+C:\Users\Pichau\Desktop\login>git push -u origin main
+To https://github.com/yEuzy/login.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/yEuzy/login.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Pichau\Desktop\login>git pull origina main
+fatal: 'origina' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Pichau\Desktop\login>git pull origin main
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 18 (delta 9), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (18/18), 4.23 KiB | 16.00 KiB/s, done.
+From https://github.com/yEuzy/login
+ * branch            main       -> FETCH_HEAD
+   0e0963a..5e38ecc  main       -> origin/main
+Updating 0e0963a..5e38ecc
+Fast-forward
+ index.html | 16 ++++++++++------
+ logar.html | 20 --------------------
+ main.html  | 16 ++++++++++++++++
+ script.js  |  2 +-
+ style.css  |  5 ++++-
+ 5 files changed, 31 insertions(+), 28 deletions(-)
+ delete mode 100644 logar.html
+ create mode 100644 main.html
+
+C:\Users\Pichau\Desktop\login>git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Pichau\Desktop\login>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/yEuzy/login.git'
+
+C:\Users\Pichau\Desktop\login>git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Pichau\Desktop\login>git push -u main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Pichau\Desktop\login>
