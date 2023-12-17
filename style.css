@@ -60,6 +60,7 @@ form > *{
     height: 10vh;
     width: 30vw;
     text-align: center;
+    margin-bottom: 10vh
 }
 
 #t2 > p{
