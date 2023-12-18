@@ -153,8 +153,11 @@ body{
 }
 
 header{
+    display: none;
     width: 100%;
 }
+
+
 
 nav{
 display: none;
@@ -214,10 +217,10 @@ display: none;
     #lbar{
         display: none;
         width: 70vw;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        left: 0px;
         transition: 0.3s;
         float: left;
     }
