@@ -105,3 +105,10 @@ form > *{
     justify-content: center;
     flex-direction: column;
 }
+
+.lbar{
+    width: 33vw;
+    height: 100%;
+    background: blue;
+    content: none;
+}
