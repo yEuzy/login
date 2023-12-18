@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylest.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylemob">
+    <title>Testitter</title>
 </head>
 <body>
-<div class="lbar">
-    <span>Testitter</span>
-    <div id="opçoes">
-        <div><button id="perfil">Perfil</button></div>
-        <div><button id="config">Configurações</button></div>
-        <div><button id="modo">Modo</button></div>
-    </div>
-</div>
-    <div id="tweetar">
-        <form onsubmit="return false" id="formu">
-            <input type="text" id="texto" placeholder="Oque esta acontecendo?">
-            <input type="submit" id="botao">
-            
-        </form>
-        <div id="tweets"></div>
-    </div>
+    <header><nav><div id="icoperf"><button id="icoperf">🪙</button></div><span>Testitter</span></nav></header>
 
-    <div class="rbar">asd</div>
+    <div id="pai">
+        <div id="lbar">
+            <span>Testitter</span>
+            <div id="opçoes">
+                <div><button id="perfil">Perfil</button></div>
+                <div><button id="config">Configurações</button></div>
+                <div><button id="modo">Modoa</button></div>
+            </div>
+        </div>
+            <div id="tweetar">
+                <form onsubmit="return false" id="formu">
+                    <input type="text" id="texto" placeholder="Oque esta acontecendo?">
+                    <input type="submit" id="botao">
+                </form>
+                 <div id="tweets"></div>
+            </div>
+    
+        <div class="rbar">asd</div>
+    </div>
 
     <script src="criar.js"></script>
+    <script src="mobile.js"></script>
 </body>
 </html>

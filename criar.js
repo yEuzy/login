@@ -31,3 +31,11 @@ function criar(){
 }
 
 botao.addEventListener('click', criar)
+
+var perfil = document.getElementById("perfil")
+
+function perfilir(){
+    
+    location.href =`perfil.html`
+}
+perfil.addEventListener('click', perfilir)
