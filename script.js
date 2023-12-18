@@ -50,7 +50,7 @@ function falar() {
         location.href = ('main.html')
     }
     else if(logou == false && tst == ''){
-        alert('erro')
+        alert('Usuario ou senha errados.')
     }
 }
 
